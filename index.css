@@ -37,6 +37,10 @@ body {
   margin-right: -15%;
 }
 
+.logo {
+  margin-left: 45px;
+}
+
 .img {
   border-radius: 50%;
   object-fit: cover;
