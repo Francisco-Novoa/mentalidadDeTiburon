@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  min-width: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+#title {
+  text-align: center;
+  margin: 16px;
+  margin-bottom: 24px;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#main > * {
+  border-radius: 10px;
+}
+
+#nav,
+#Parnerships {
+  margin-left: -15%;
+  margin-right: -15%;
+}
+
+.img {
+  border-radius: 50%;
+  object-fit: cover;
+}
